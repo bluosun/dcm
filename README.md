@@ -18,7 +18,7 @@ library("dcm")
 ```
 
 # Overview
-This function implements IPW using LDCM weights as described in Tchetgen Tchetgen et. al (2017). The implementation is based on 
+The function 'dcm' implements IPW using LDCM weights as described in Tchetgen Tchetgen et. al (2017). The implementation is based on 
 a default linear main effects model of the observed variables in the *r*<sup>th</sup> missing data pattern for the log ratio 
 of probabilities for observing the *r*<sup>th</sup> missing data pattern versus the complete data.
 
