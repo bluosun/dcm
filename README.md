@@ -18,7 +18,7 @@ library("dcm")
 ```
 
 # Overview
-This function implements IPW using LDCM weights as described in Tchetgen Tchetgen et al. (2017). The implementation is based on 
+This function implements IPW using LDCM weights as described in Tchetgen Tchetgen et. al (2017). The implementation is based on 
 a default linear main effects model of the observed variables in the *r*<sup>th</sup> missing data pattern for the log ratio 
 of probabilities for observing the *r*<sup>th</sup> missing data pattern versus the complete data.
 
@@ -42,3 +42,8 @@ The 'airquality' dataset is included in R base and contains nonmonotone missing 
 ```r
 out <- dcm(airquality, Temp~Ozone+Solar.R+Wind, gaussian)
 ```
+
+# Reference
+
+Tchetgen Tchetgen, E., Wang, L. and Sun, B. (2017). <a href="http://www3.stat.sinica.edu.tw/ss_newpaper/SS-2016-0325_na.pdf"> Discrete Choice Models for Nonmonotone Nonignorable Missing Data: Identification and Inference.</a> Statistica Sinica (doi: 10.5705/ss.202016.0325).
+
