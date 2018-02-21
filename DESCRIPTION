@@ -1,0 +1,15 @@
+Package: dcm
+Title: Discrete Choice Model (DCM) for Nonignorable Missing Data
+Date: 2018-02-20
+Version: 1.0
+Authors@R:    c(
+    person("Eric", "Tchetgen Tchetgen", email = "etchetge@hsph.harvard.edu", role = "aut"),
+    person("Linbo", "Wang", email = "linbowang@g.harvard.edu", role = "aut"),
+    person("BaoLuo", "Sun", email = "bluosun@gmail.com", role = c("aut","cre")))
+Maintainer: BaoLuo Sun <bluosun@gmail.com>
+Description: Implements inverse probability weighting (IPW) with the logit discrete choice nonresponse model (LDCM).
+Depends: R (>= 3.4.1)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
